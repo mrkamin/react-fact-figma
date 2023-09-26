@@ -1,7 +1,7 @@
 :root {
   --header-bg-color: #21222a;
   --main-bg-color: #282d35;
-  --text-color: #ffffff;
+  --text-color: #fff;
   --title-color: #61dafb;
   --text-color-ligther: #deebf8;
 }
@@ -15,6 +15,7 @@
 .flex {
   display: flex;
 }
+
 body {
   background: var(--main-bg-color);
 }
@@ -87,5 +88,3 @@ header h3 {
     padding: 2px;
   }
 }
-
-
