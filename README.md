@@ -1,6 +1,6 @@
 # React fun facts
 
-this is a very simple basic app which is build in React for training and practice propose. 
+this is a very simple basic app which is build in React for training and practice propose.. 
 
 **Live Demo**
 
