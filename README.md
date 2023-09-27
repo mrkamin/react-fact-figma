@@ -8,3 +8,4 @@ Render([https://react-fun-fact.onrender.com])
 
 **Design credete goes to figma**
 
+Figm ([https://www.figma.com/file/xA1rJVQOorqMW6xjGdBLcI/ReactFacts?node-id=0%3A1])
