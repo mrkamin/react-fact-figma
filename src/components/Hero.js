@@ -29,14 +29,12 @@ const Hero = () => (
     </div>
     <div className="about container mt-2">
       <h4>About</h4>
-      <p className="about-p fs-7">
+      <p className="about-p">
         Full-stack developer passionate about crafting applications in Ruby,
         React, and JavaScript.
       </p>
-    </div>
-    <div className="about container">
       <h4>Intersted</h4>
-      <p className="about-p fs-7">
+      <p className="about-p">
         web development, front-end technologies, personal projects, learning,
         problem-solving, and teamwork.
       </p>
