@@ -1,14 +1,10 @@
 import React from 'react';
-import IMG from '../assets/react-logo.png';
+import IMG from '../assets/my pic .jpg';
 
 const Navbar = () => (
-  <header className="flex">
-    <div className="title-container flex">
-      <img src={IMG} alt="logo" />
-      <h2>ReactFact</h2>
-    </div>
-    <h3>React Course - Project 1</h3>
-  </header>
+  <div className="hero-img">
+    <img src={IMG} alt="img" />
+  </div>
 );
 
 export default Navbar;
