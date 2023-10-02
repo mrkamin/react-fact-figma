@@ -3,8 +3,8 @@ import { FiGithub, FiLinkedin } from 'react-icons/fi';
 
 const Hero = () => (
   <div className="hero-container flex container">
-    <h3>Mohammad Rafi Amin</h3>
-    <h5>Full Stack Developer</h5>
+    <h4>Mohammad Rafi Amin</h4>
+    <h6>Full Stack Developer</h6>
     <div className="social-btn d-flex gap-3 mt-3 container">
       <a
         href="https://github.com/mrkamin"
