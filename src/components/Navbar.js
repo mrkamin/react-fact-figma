@@ -1,10 +1,13 @@
 import React from 'react';
-import IMG from '../assets/my pic .jpg';
+import IMG from '../assets/airbnb-logo-png-transparent-background.png';
 
 const Navbar = () => (
-  <div className="hero-img">
+
+  <nav className="navbar">
     <img src={IMG} alt="img" />
-  </div>
+
+  </nav>
+
 );
 
 export default Navbar;
