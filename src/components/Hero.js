@@ -1,44 +1,25 @@
 import React from 'react';
-import { FiGithub, FiLinkedin } from 'react-icons/fi';
+import IMG1 from '../assets/image 22.png';
+import IMG2 from '../assets/image 23.png';
+import IMG3 from '../assets/image 24.png';
+import IMG4 from '../assets/image 25.png';
+import IMG5 from '../assets/image 26.png';
+import IMG6 from '../assets/image 27.png';
+import IMG7 from '../assets/image 28.png';
+import IMG8 from '../assets/image 29.png';
+import IMG9 from '../assets/image 30.png';
 
 const Hero = () => (
-  <div className="hero-container flex container">
-    <h4>Mohammad Rafi Amin</h4>
-    <h6>Full Stack Developer</h6>
-    <div className="social-btn d-flex gap-3 mt-3 container">
-      <a
-        href="https://github.com/mrkamin"
-        className="btn btn-secondary d-flex align-items-center justify-content-center gap-2"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FiGithub />
-        {' '}
-        Github
-      </a>
-      <a
-        href="https://www.linkedin.com/in/mohammad-rafi-amin/"
-        className="btn btn-primary d-flex align-items-center justify-content-center gap-2"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FiLinkedin />
-        {' '}
-        Linkedin
-      </a>
-    </div>
-    <div className="about container mt-2">
-      <h4>About</h4>
-      <p className="about-p">
-        Full-stack developer passionate about crafting applications in Ruby,
-        React, and JavaScript.
-      </p>
-      <h4>Intersted</h4>
-      <p className="about-p">
-        web development, front-end technologies, personal projects, learning,
-        problem-solving, and teamwork.
-      </p>
-    </div>
+  <div className="hero-container container">
+    <img src={IMG7} alt="IMG1" />
+    <img src={IMG9} alt="IMG1" />
+    <img src={IMG5} alt="IMG1" />
+    <img src={IMG6} alt="IMG1" />
+    <img src={IMG8} alt="IMG1" />
+    <img src={IMG1} alt="IMG1" />
+    <img src={IMG2} alt="IMG1" />
+    <img src={IMG4} alt="IMG1" />
+    <img src={IMG3} alt="IMG1" />
   </div>
 );
 export default Hero;
