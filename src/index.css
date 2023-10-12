@@ -29,10 +29,6 @@
   display: flex;
 }
 
-body {
-  
-}
-
 h1,
 h2,
 h3,
@@ -42,10 +38,6 @@ h6 {
   font-family: var(--ff);
   padding: 0;
   margin: 0;
-}
-
-p {
-  
 }
 
 nav {
